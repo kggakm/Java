@@ -4,6 +4,6 @@ import ch06.sec13.exam01.package1.*;
 
 public class C {
 	//피드 선언
-	A a;		//X
+	//A a;		//X
 	B b;		//O
 }

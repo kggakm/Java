@@ -8,12 +8,12 @@ public class B {
 		//필드값 변경
 		a.field1 = 1;	// O
 		a.field2 = 1;	// O
-		a.field3 = 1;	// X
+		// a.field3 = 1;	// X
 		
 		//메소드 호출
 		a.method1();	// O
 		a.method2();	// O
-		a.method3(); 	// X
+		// a.method3(); 	// X
 		
 		
 	}
