@@ -122,8 +122,5 @@ public class ListTest {
 		linked.addFirst("수원");
 		linked.addLast("울산");
 		System.out.println(linked);
-		
-		
 	}
-
 }
