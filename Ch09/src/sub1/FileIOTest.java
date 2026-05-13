@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * 날짜 : 2026/05/13
  * 이름 : 조규현
- * 내용 : 
+ * 내용 : Java 파일 입출력 실습
  */
 
 public class FileIOTest {
