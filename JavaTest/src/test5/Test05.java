@@ -26,7 +26,7 @@ class Banana {
 
 	@Override
 	public String toString() {
-		return "Banana [country=" + country + ", price=" + price + "]";
+		return "Apple [country=" + country + ", price=" + price + "]";
 	}
 }
 
@@ -41,7 +41,7 @@ class Grape {
 
 	@Override
 	public String toString() {
-		return "Grape [country=" + country + ", price=" + price + "]";
+		return "Apple [country=" + country + ", price=" + price + "]";
 	}
 }
 
@@ -60,8 +60,17 @@ public class Test05 {
 	
 	public static void showInfo(Object fruit) {
 		
-		if(fruit )
-		
+		if(fruit instanceof Apple) {
+			Apple apple = (Apple) fruit;
+			System.out.println(apple);
+		}
+		if(fruit instanceof Banana) {
+			Banana banana = (Banana) fruit;
+			System.out.println(banana);
+		}
+		if(fruit instanceof Grape) {
+			Grape grape = (Grape) fruit;
+			System.out.println(grape);
+		}
 	}
-
 }
