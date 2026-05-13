@@ -1,7 +1,11 @@
 package sub3;
 
-public class Apple {
+import java.io.Serializable;
+
+// 직렬화용 객체 생성을 위한 Serializable 인터페이스 구현
+public class Apple implements Serializable {
 	
+	private static final long serialVersionUID = 1L;  // 인스턴스 식별용 아이디
 	private String country;
 	private int price;
 	
