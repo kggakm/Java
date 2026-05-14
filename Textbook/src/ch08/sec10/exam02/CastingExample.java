@@ -7,6 +7,11 @@ public class CastingExample {
 		
 		//인터페이스를 통해서 호출
 		vehicle.run();
+		//vehicle.checkFare();	(X)
+		
+		//강제 타입 변환 후 호출
+		Bus bus = (Bus) vehicle;
+		bus.run();
+		bus.checkFare();
 	}
-
 }
