@@ -42,7 +42,7 @@ public class UpdateTest {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Insert 완료...");
+		System.out.println("Update 완료...");
 		
 	}
 
